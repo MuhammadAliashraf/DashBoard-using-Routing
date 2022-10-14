@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+    
+}
+.Admin{
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.adminLink{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+}
+
