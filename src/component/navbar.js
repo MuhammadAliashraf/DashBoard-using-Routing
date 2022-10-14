@@ -82,6 +82,14 @@ export default function Navbar(props) {
               <Link className='Link' to="notification" >Notifications</Link>
               </ListItemButton>
           </ListItem>
+          <ListItem disablePadding>
+              <ListItemButton>
+              <ListItemIcon>
+                 <NotificationsIcon/>
+              </ListItemIcon>
+              <Link className='Link' to="data" >All Data</Link>
+              </ListItemButton>
+          </ListItem>
       </List>
       <Divider />
     </div>
